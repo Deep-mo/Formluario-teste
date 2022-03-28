@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(113, 162, 202);
+}
+form{
+    background-color: rgb(181, 198, 218);
+    border: solid;
+    border-color: black;
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+}
+.titulos h4{
+    margin-left: 5%;
+}
+
+/*Formulario abauixo*/
+
+.nomeesobrenome{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.email label{
+    margin-right: 1%;
+}
+
+.nivel-e-apli{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.aplicacao{
+    display: flex;
+    flex-direction: column;
+}
+.nivel{
+    display: flex;
+    flex-direction: column;
+}
+.pergunta-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-pergunta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.a-mais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+    margin-bottom: 5%;
+  
+}
